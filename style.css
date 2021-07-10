@@ -12,8 +12,8 @@ contact{
     display:flex;
 }
 contact>.info{
-    flex:auto;text-decoration:underline;font-size:25px;color:white;
-    text-align:center;padding:10px;background-color:green;
+    flex:auto;text-decoration:underline;font-size:16px;color:white;
+    text-align:center;padding:10px;background-color:cadetblue;
 }
 
 group{
