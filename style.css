@@ -1,0 +1,41 @@
+body{margin:0px;background-color:#eeeeee;}
+
+nav{
+    display:flex;
+}
+nav>.name{
+    flex:auto;font-size:25px;color:white;
+    text-align:center;padding:10px;background-color:black;
+}
+
+contact{
+    display:flex;
+}
+contact>.info{
+    flex:auto;text-decoration:underline;font-size:25px;color:white;
+    text-align:center;padding:10px;background-color:green;
+}
+
+group{
+    display:flex;flex-wrap:wrap;
+    justify-content:center;
+    margin-left:auto;margin-right:auto;
+    background-color:gray;text-align:center;
+}
+group>.item{
+    flex:none;width:320px;margin:10px;
+    background-color:white;
+}
+@media (max-width:1200px){
+    group>.item{
+        width:45%;margin:10px;
+        background-color:white;
+    }
+}
+
+@media (max-width:600px){
+    group>.item{
+        width:90%;margin:10px;
+        background-color:white;
+    }
+}
