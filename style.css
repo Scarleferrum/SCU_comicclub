@@ -18,7 +18,7 @@ contact>.info{
 
 group{
     display:flex;flex-wrap:wrap;
-    justify-content:center;font-size:22px;
+    justify-content:center;font-size:23px;
     margin-left:auto;margin-right:auto;
     background-color:gray;text-align:center;
 }
@@ -37,5 +37,28 @@ group>.item{
     group>.item{
         width:90%;margin:10px;
         background-color:white;
+    }
+}
+
+bulletin{
+    display:flex;flex-wrap:wrap;
+    justify-content:center;font-size:21px;
+    margin-left:auto;margin-right:auto;
+    background-color:gray;text-align:left;
+}
+bulletin>.board{
+    flex:none;width:800px;padding-left:10%;
+    background-color:palevioletred;
+}
+@media (max-width:1200px){
+    bulletin>.board{
+        width:90%;margin-left:5%;
+        background-color:palevioletred;
+    }
+}
+@media (max-width:600px){
+    bulletin>.board{
+        width:90%;margin-left:2%;
+        background-color:palevioletred;
     }
 }
