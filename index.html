@@ -6,26 +6,29 @@
     <title>東吳大學漫畫學社</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
     <style type="text/css">
-    .group{
-        font-weight:bold;
-    }
-    .center{
-        display:block;
-        margin-left:auto;margin-right:auto;
-    }
-    .address{
-        text-align:center;font-size:15px;font-family:'Times New Roman', Times, serif;
-    }
+    .group{font-weight:bold;}
+    .center{display:block;margin-left:auto;margin-right:auto;}
+    .address{text-align:center;font-size:15px;font-family:'Times New Roman', Times, serif;}
+    .hide{display:none;}
     </style>
+    <script type="text/javascript">
+        function togglemenu(){
+            var menu=document.getElementById("menu");
+            menu.classList.toggle("hide");
+            /*if(menu.style.display=="none"){
+                menu.style.display="block";
+            }else{
+                menu.style.display="none";
+            }*/
+        }
+    </script>
 </head>
 <body>
     <nav>
-        <div class="name">HOME</div>
+        <div class="name">HOME
+        </div>
     </nav>
-    <img src="IMG_4848.jpg" width="75%" class="center"/>
-    <nav>
-        <div class="name">MENU</div>
-    </nav>
+    <img src="./resource/public/烏咪烏帕人設圖.jpg" width="75%" class="center"/>
     <bulletin>
         <div class="board">
             最新消息
@@ -40,25 +43,39 @@
             2021-07-10  XX
         </div>
     </bulletin>
+    <acg_zone>
+        <div class="link"><a href="./acg_zone/session_of_showing.html">場次相關專區</a></div>
+        <div class="link"><a href="./acg_zone/learning.html">學習充電專區</a></div>
+        <div class="link"><a href="./acg_zone/source_of_library.html">校內資源(漫讀區)</a></div>
+        <div class="link"><a href="./acg_zone/speech_work.html">校外講座、工作坊推</a></div>
+        <div class="link"><a href="./acg_zone/cooperation.html">社團合作</a></div>
+        <div class="link"><a href="./acg_zone/magzine.html">社團刊物</a></div>
+    </acg_zone>
     <group>
-        <div class="item">
-            <div class="group">漫畫組</div>
-        </div>
-        <div class="item">
-            <div class="group"><a href="./groups/boardgame.html">桌遊組</a></div>
-        </div>
-        <div class="item">
-            <div class="group">Cos組</div>
-        </div>
-        <div class="item">
-            <div class="group">歌舞組</div>
-        </div>
-        <div class="item">
-            <div class="group">社報組</div>
-        </div>
-        <div class="item">
-            <div class="group">社辦組</div>
-        </div>
+        <a href="./groups/manga.html"><div>
+        <img src="./resource/public/icon_manga.jpg" width=150px class="center"/>
+            漫畫組
+        </div></a>
+        <a href="./groups/boardgame.html"><div>
+        <img src="./resource/public/icon_boardgame.jpg" width=150px class="center"/>
+            桌遊組
+        </div></a>
+        <a href="./groups/cosplay.html"><div>
+        <img src="./resource/public/icon_cospay.jpg" width=150px class="center"/>
+            Cos組
+        </div></a>
+        <a href="./groups/kabu.html"><div>
+        <img src="./resource/public/icon_kabu.jpg" width=150px class="center"/>
+            歌舞組
+        </div></a>
+        <a href="./groups/magzine.html"><div>
+        <img src="./resource/public/icon_magzine.jpg" width=150px class="center"/>
+            社報組
+        </div></a>
+        <a href="./groups/office.html"><div>
+        <img src="./resource/public/icon_office.jpg" width=150px class="center"/>
+            社辦組
+        </div></a>
     </group>
     <contact>
         <div class="info">
