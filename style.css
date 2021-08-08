@@ -4,7 +4,12 @@ nav{
     display:flex;
 }
 nav>.name{
-    flex:auto;font-size:25px;color:white;
+    flex:auto;font-size:25px;color:white;flex-wrap:wrap;
+    text-align:center;padding:10px;background-color:black;
+    list-style-type:none;
+}
+nav>.list{
+    flex:auto;font-size:25px;color:white;flex-wrap:wrap;
     text-align:center;padding:10px;background-color:black;
 }
 
@@ -13,7 +18,7 @@ contact{
 }
 contact>.info{
     flex:auto;text-decoration:underline;font-size:14px;color:white;
-    text-align:center;padding:10px;background-color:cadetblue;
+    text-align:center;padding:10px;background-color:#dedfe8;
 }
 
 group{
@@ -42,22 +47,31 @@ group>.item{
 
 bulletin{
     display:flex;flex-wrap:wrap;
-    font-size:21px;padding-left:20%;
+    font-size:21px;padding-left:20%;padding-right:20%;
     margin-left:auto;margin-right:auto;
-    background-color:palevioletred;text-align:left;
+    background-color:#e3aab4;text-align:left;
 }
 bulletin>.board{
+    flex:none;width:100%;
+}
+acg_zone{
+    display:flex;flex-wrap:wrap;
+    font-size:21px;padding-left:20%;
+    margin-left:auto;margin-right:auto;
+    background-color:#909fa6;text-align:left;
+}
+acg_zone>.link{
     flex:none;width:100%;
 }
 @media (max-width:1200px){
     bulletin>.board{
         width:90%;
-        background-color:palevioletred;padding-left:10%;
+        background-color:#e3aab4;padding-left:10%;
     }
 }
 @media (max-width:600px){
     bulletin>.board{
         width:90%;
-        background-color:palevioletred;padding-left:10%;
+        background-color:#e3aab4;padding-left:10%;
     }
 }
