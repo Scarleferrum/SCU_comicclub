@@ -1,10 +1,15 @@
 2021/8/8
--finish most of the links between all the pages
--fill most part of the website
--change the background colour
--fill most of the blanks with examples
+-most of the links among pages finished
+-most part of the website filled
+-background colour changed
+-blanks filled with examples
 
 2021/8/14
--fixed README.md
+-README.md fixed
 -added CHANGELOG.md
+-icons of contact ways changed
 -prepared database
+-data downloaded
+-pages prepared
+-bug fixed
+-BETA ver. preparing
