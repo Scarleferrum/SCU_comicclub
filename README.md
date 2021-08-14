@@ -5,4 +5,3 @@ If there is any problem, please contact with `scarletferrum@gmail.com`.
 
 The website is published at `https://scarleferrum.github.io/SCU_comicclub/`.
 Github code is showed in `https://github.com/Scarleferrum/SCU_comicclub`.
-
