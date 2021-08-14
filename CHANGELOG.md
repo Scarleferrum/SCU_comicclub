@@ -6,10 +6,11 @@
 
 2021/8/14
 -README.md fixed
--added CHANGELOG.md
+-CHANGELOG.md added
 -icons of contact ways changed
--prepared database
 -data downloaded
--pages prepared
+-data renamed
+-database prepared
+-other pages prepared
 -bug fixed
 -BETA ver. preparing
