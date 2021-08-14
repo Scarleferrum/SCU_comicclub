@@ -10,6 +10,7 @@
 -icons of contact ways changed
 -data downloaded
 -data renamed
+-data form changed
 -database prepared
 -other pages prepared
 -bug fixed
