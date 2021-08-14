@@ -14,7 +14,10 @@ nav>.list{
 }
 
 contact{
-    display:flex;
+    display:flex;flex-wrap:wrap;
+    justify-content:center;font-size:23px;
+    margin-left:auto;margin-right:auto;
+    text-align:center;
 }
 contact>.info{
     flex:auto;text-decoration:underline;font-size:14px;color:white;
@@ -28,7 +31,7 @@ group{
     background-color:gray;text-align:center;
 }
 group>.item{
-    flex:none;width:320px;margin:10px;
+    flex:none;width:320px;margin-left:10px;
     background-color:white;
 }
 @media (max-width:1200px){
