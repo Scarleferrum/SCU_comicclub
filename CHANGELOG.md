@@ -3,3 +3,8 @@
 -fill most part of the website
 -change the background colour
 -fill most of the blanks with examples
+
+2021/8/14
+-fixed README.md
+-added CHANGELOG.md
+-prepared database
