@@ -23,4 +23,6 @@
 2021/8/22<br>
 -data downloaded
 -data renamed
--about_us finished
+-about_us updated
+-more pages prepared
+-better catagories classified
