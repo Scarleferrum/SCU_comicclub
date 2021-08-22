@@ -146,7 +146,7 @@ intro>.resume{
 }
 
 intro{
-    display:flex;
+    display:flex;flex-wrap:wrap;
     justify-content:left;font-size:23px;
     padding-left: 10%;padding-right: 10%;
     background-color:gray;text-align:left;
